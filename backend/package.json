@@ -1,0 +1,16 @@
+{
+  "name": "demo-app-backend",
+  "version": "1.0.0",
+  "description": "Minimal notes API for practicing the VPC/EC2/MongoDB infra",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Notes — Infra Practice App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Notes</h1>
+    <p class="status" id="status">Checking backend...</p>
+
+    <form id="note-form">
+      <input type="text" id="title" placeholder="Title" required />
+      <textarea id="body" placeholder="Note text"></textarea>
+      <button type="submit">Add note</button>
+    </form>
+
+    <ul id="notes-list"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
